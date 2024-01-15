@@ -1,0 +1,8 @@
+These are the steps you need to follow(linux/xampp)
+1) go to terminal and type /opt/lampp/bin/mysql -u root -p
+2) after that enter the mysql user password if it worked well 
+then type exit (if it doesn't have password hit enter without
+typing anything)
+3)after that type cd /opt/lampp/bin and now type
+       sudo ./mysql_upgrade -u root -p 
+, enter your password and tadam , here is your mysql upgraded
